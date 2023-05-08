@@ -1,8 +1,5 @@
 const btn = document.querySelector('.btn-verse');
 
-const motivation = function () {
-  alert('works');
-};
 btn.addEventListener('click', logJSONData);
 logJSONData();
 
