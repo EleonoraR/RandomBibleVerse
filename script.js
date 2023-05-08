@@ -12,7 +12,7 @@ async function logJSONData() {
   );
   const jsonData = await response.json();
 
-  document.querySelector('.book').textContent = `Book ${jsonData[0].bookname}`;
+  document.querySelector('.book').textContent = `${jsonData[0].bookname}`;
   document.querySelector(
     '.chapter'
   ).textContent = `Chapter: ${jsonData[0].chapter}`;
